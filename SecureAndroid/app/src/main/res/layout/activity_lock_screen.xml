@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueback"
+    tools:context=".LockScreen">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Enter Your Password"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="180dp"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="180dp"
+        android:text="Cancel" />
+
+
+</RelativeLayout>

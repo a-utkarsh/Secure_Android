@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.utkarsh.secureandroid.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btn1"
+            android:layout_marginTop="170dp"
+            android:text="APP LOCK"
+            android:background="@drawable/mybutton"
+            android:textColor="#303F9F"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:text="SCAN APP"
+            android:background="@drawable/mybutton"
+            android:textColor="#303F9F"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btn1"
+            android:layout_marginTop="80dp"
+            android:text="APP Analyzer "
+            android:background="@drawable/mybutton"
+            android:textColor="#303F9F"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btn1"
+            android:layout_marginTop="350dp"
+            android:text="Intruder "
+            android:background="@drawable/mybutton"
+            android:textColor="#303F9F"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

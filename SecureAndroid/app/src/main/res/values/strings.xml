@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Secure Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="description_text">FORTRESS answers a very basic question of giving you complete
+        control of your phone.The application simply revises the permission base the
+        existing application takes on your phone so that u can monitor it timely
+        to ensure you are protected from those application through which the hackers
+        create a backdoor to steal or manipulate your sensitive data.
+        Moreover this application comes with feature like LOCK APP which ensures your sole
+        authentication to access the apps in your cellphone.This application also
+        helps you to keep an track of the foreground access time of all the apps and at the same time
+        facilitates to monitor when a particular application is being accessed last time.
+        FORTRESS answers a very basic question of giving you complete control of your phone.
+        The application simply revises the permission base the existing application takes on your
+        phone so that u can monitor it timely to ensure you are protected from
+        those application through which the hackers create a backdoor to steal or manipulate your sensitive data.Moreover this application comes with feature like LOCK APP which ensures your sole authentication to access the apps in your cellphone.This application also helps you to keep an track of the foreground access time of all the apps and at the same time facilitates to monitor when a particular application is being accessed last time.
+    </string>
+    <string name="enable_device_admin">Enable Device Admin</string>
+    <string name="lock_device">Lock Device</string>
+    <string name="reset_device">Reset Device</string>
+    <string name="device_admin_enabled">Device Admin Enabled</string>
+    <string name="device_admin_disabled">Device Admin Disabled</string>
+
+
+</resources>
